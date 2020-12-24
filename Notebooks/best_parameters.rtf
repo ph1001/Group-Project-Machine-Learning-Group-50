@@ -5,7 +5,58 @@
 \paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
 \pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
 
-\f0\fs24 \cf0 With all of train_data_scaled:\
+\f0\fs24 \cf0 With all of train_data_scaled[[eatures_to_keep_1]:\
+\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+AdaBoost:\
+
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \{'algorithm': 'SAMME.R',\
+ 'learning_rate': 0.61,\
+ 'n_estimators': 962,\
+ 'random_state': 42\}\
+\
+f1_score: 0.8676339285714286\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+MLP:\
+\
+\pard\pardeftab720\partightenfactor0
+\cf2 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \{'activation': 'tanh',\
+ 'alpha': 4e-05,\
+ 'hidden_layer_sizes': (10,),\
+ 'learning_rate': 'constant',\
+ 'learning_rate_init': 0.01,\
+ 'random_state': 42,\
+ 'solver': 'adam'\}\
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs28 \cf2 \cb3 \expnd0\expndtw0\kerning0
+f1_score: \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 0.8587053571428571\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\fs24 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \'97\'97\'97\
+\
+With all of train_data_scaled:\
 \
 \pard\pardeftab720\partightenfactor0
 
@@ -17,6 +68,11 @@ AdaBoost:\
  'n_estimators': 508,\
  'random_state': 42\}\
 \
+\pard\pardeftab720\partightenfactor0
+\cf2 f1_score: \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 0.8678571428571429\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+\
 MLP:\
 \
 \{'activation': 'tanh',\
@@ -25,4 +81,7 @@ MLP:\
  'learning_rate': 'constant',\
  'learning_rate_init': 0.001,\
  'random_state': 42,\
- 'solver': 'adam'\}}
+ 'solver': 'adam'\}\
+\
+f1_score: \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 0.853125}
